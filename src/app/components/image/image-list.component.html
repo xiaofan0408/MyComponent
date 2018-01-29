@@ -1,0 +1,4 @@
+<div  *ngFor="let img of imgs" img-style [width]="img.width" [height]="img.height" >
+    <i [style.padding-bottom.%]="img.height/img.width*100"></i>
+    <img [src]="img.thumbUrl" alt="" (click)="onClickImage(img)" [@flyInOut]>
+</div>

@@ -22,142 +22,130 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.imgs = [
       {
-        'url': 'http://iph.href.lu/675x900',
+        'thumbUrl': 'http://iph.href.lu/675x900',
+        'realUrl': 'http://iph.href.lu/675x900',
         'width': 675,
         'height': 900
       },
       {
-        'url': 'http://iph.href.lu/1170x780',
+        'thumbUrl': 'http://iph.href.lu/1170x780',
+        'realUrl': 'http://iph.href.lu/1170x780',
         'width': 1170,
         'height': 780
       },
       {
-        'url': 'http://iph.href.lu/1170x780',
+        'thumbUrl': 'http://iph.href.lu/1170x780',
+        'realUrl': 'http://iph.href.lu/1170x780',
         'width': 1170,
         'height': 780
       },
       {
-        'url': 'http://iph.href.lu/2048x1536',
+        'thumbUrl': 'http://iph.href.lu/2048x1536',
+        'realUrl': 'http://iph.href.lu/2048x1536',
         'width': 2048,
         'height': 1536
       },
       {
-        'url': 'http://iph.href.lu/1333x2000',
+        'thumbUrl': 'http://iph.href.lu/1333x2000',
+        'realUrl': 'http://iph.href.lu/1333x2000',
         'width': 1333,
         'height': 2000
       },
       {
-        'url': 'http://iph.href.lu/2000x1333',
-        'width': 2000,
-        'height': 1333
+        'thumbUrl': 'http://iph.href.lu/400x2048',
+        'realUrl': 'http://iph.href.lu/400x2048',
+        'width': 400,
+        'height': 2048
       },
       {
-        'url': 'http://iph.href.lu/1170x780',
+        'thumbUrl': 'http://iph.href.lu/1170x780',
+        'realUrl': 'http://iph.href.lu/1170x780',
         'width': 1170,
         'height': 780
       },
       {
-        'url': 'http://iph.href.lu/2000x1339',
+        'thumbUrl': 'http://iph.href.lu/2000x1339',
+        'realUrl': 'http://iph.href.lu/2000x1339',
         'width': 2000,
         'height': 1339
       },
       {
-        'url': 'http://iph.href.lu/1080x1920',
+        'thumbUrl': 'http://iph.href.lu/1080x1920',
+        'realUrl': 'http://iph.href.lu/1080x1920',
         'width': 1080,
         'height': 1920
       },
       {
-        'url': 'http://iph.href.lu/675x900',
+        'thumbUrl': 'http://iph.href.lu/675x900',
+        'realUrl': 'http://iph.href.lu/675x900',
         'width': 675,
         'height': 900
       },
       {
-        'url': 'http://iph.href.lu/1170x780',
-        'width': 1170,
-        'height': 780
-      },
-      {
-        'url': 'http://iph.href.lu/780x1170',
-        'width': 780,
-        'height': 1170
-      },
-      {
-        'url': 'http://iph.href.lu/2048x1536',
-        'width': 2048,
-        'height': 1536
-      },
-      {
-        'url': 'http://iph.href.lu/2000x1333',
-        'width': 2000,
-        'height': 1333
-      },
-      {
-        'url': 'http://iph.href.lu/2000x1333',
-        'width': 2000,
-        'height': 1333
-      },
-      {
-        'url': 'http://iph.href.lu/1170x780',
-        'width': 1170,
-        'height': 780
-      },
-      {
-        'url': 'http://iph.href.lu/2000x1339',
-        'width': 2000,
-        'height': 1339
-      },
-      {
-        'url': 'http://iph.href.lu/1920x1080',
-        'width': 1920,
-        'height': 1080
-      },
-      {
-        'url': 'http://iph.href.lu/675x900',
+        'thumbUrl': 'http://iph.href.lu/675x900',
+        'realUrl': 'http://iph.href.lu/675x900',
         'width': 675,
         'height': 900
       },
       {
-        'url': 'http://iph.href.lu/1170x780',
+        'thumbUrl': 'http://iph.href.lu/1170x780',
+        'realUrl': 'http://iph.href.lu/1170x780',
         'width': 1170,
         'height': 780
       },
       {
-        'url': 'http://iph.href.lu/1170x780',
+        'thumbUrl': 'http://iph.href.lu/1170x780',
+        'realUrl': 'http://iph.href.lu/1170x780',
         'width': 1170,
         'height': 780
       },
       {
-        'url': 'http://iph.href.lu/2048x1536',
+        'thumbUrl': 'http://iph.href.lu/2048x1536',
+        'realUrl': 'http://iph.href.lu/2048x1536',
         'width': 2048,
         'height': 1536
       },
       {
-        'url': 'http://iph.href.lu/2000x1333',
+        'thumbUrl': 'http://iph.href.lu/1333x2000',
+        'realUrl': 'http://iph.href.lu/1333x2000',
+        'width': 1333,
+        'height': 2000
+      },
+      {
+        'thumbUrl': 'http://iph.href.lu/2000x1333',
+        'realUrl': 'http://iph.href.lu/2000x1333',
         'width': 2000,
         'height': 1333
       },
       {
-        'url': 'http://iph.href.lu/2000x1333',
-        'width': 2000,
-        'height': 1333
-      },
-      {
-        'url': 'http://iph.href.lu/1170x780',
+        'thumbUrl': 'http://iph.href.lu/1170x780',
+        'realUrl': 'http://iph.href.lu/1170x780',
         'width': 1170,
         'height': 780
       },
       {
-        'url': 'http://iph.href.lu/2000x1339',
+        'thumbUrl': 'http://iph.href.lu/2000x1339',
+        'realUrl': 'http://iph.href.lu/2000x1339',
         'width': 2000,
         'height': 1339
       },
       {
-        'url': 'http://iph.href.lu/1920x1080',
-        'width': 1920,
-        'height': 1080
+        'thumbUrl': 'http://iph.href.lu/1080x1920',
+        'realUrl': 'http://iph.href.lu/1080x1920',
+        'width': 1080,
+        'height': 1920
+      },
+      {
+        'thumbUrl': 'http://iph.href.lu/675x900',
+        'realUrl': 'http://iph.href.lu/675x900',
+        'width': 675,
+        'height': 900
       }
     ];
   }
 
+  select(img: Image): void {
+    console.log(img.realUrl);
+  }
 
 }

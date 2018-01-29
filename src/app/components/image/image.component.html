@@ -1,8 +1,8 @@
 <section>
   <!-- <div  *ngFor="let img of imgs" [style.width.px]="img.width*200/img.height"
    [style.flex-grow]="img.width*200/img.height"> -->
-  <div  *ngFor="let img of imgs" img-style [width]="img.width" [height]="img.height">
+  <div  *ngFor="let img of imgs" img-style [width]="img.width" [height]="img.height" >
     <i [style.padding-bottom.%]="img.height/img.width*100"></i>
-    <img [src]="img.url" alt="">
+    <img [src]="img.thumbUrl" alt="" (click)="onClickImage(img)" [@flyInOut]>
   </div>
 </section>

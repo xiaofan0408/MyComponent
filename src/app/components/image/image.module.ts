@@ -1,9 +1,10 @@
 
-import { NgModule } from '@angular/core';
+import { NgModule} from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ImageComponent } from './image.component';
 import { ImageDirective } from './image.directive';
+
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { ImageDirective } from './image.directive';
     ImageDirective
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   exports: [ImageComponent]
